@@ -109,3 +109,59 @@ p{
   line-height: 28px;
   text-align: center;
 }
+
+
+/* This section will house footer --> */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+}
+
+.footer-sections {
+  position: absolute;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  min-width: 980px;
+}
+
+#top-footer {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+#top-footer p{
+  margin-left: 27px;
+  line-height: 40px;
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+}
+
+.left-footer {
+  position: relative;
+  float: left;
+  background-color: inherit;
+}
+
+.right-footer {
+  position: relative;
+  float: right;
+}
+
+#bottom-footer li{
+  display: inline-block;
+  padding-left: 27px;
+  color: #666;
+}
+
+#bottom-footer a{
+  color: rgba(0,0,0,.54);
+  text-decoration: none;
+  font-size: small;
+}
+
+#bottom-footer a:hover{
+  text-decoration: underline;
+}
