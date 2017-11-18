@@ -125,7 +125,7 @@ footer {
   background: #f2f2f2;
   border-top: 1px solid #e4e4e4;
   line-height: 40px;
-  min-width: 980px;
+  min-width: 100%;
 }
 
 #top-footer {
@@ -148,6 +148,10 @@ footer {
 .right-footer {
   position: relative;
   float: right;
+}
+
+#bottom-footer nav {
+  margin-right: 27px;
 }
 
 #bottom-footer li{
